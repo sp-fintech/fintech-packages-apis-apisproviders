@@ -1,0 +1,43 @@
+{
+	"name" : "ApisProviders",
+	"display_name" : "Providers APIs",
+	"description" : "<p>Providers APIs</p>",
+	"module_type" : "packages",
+	"app_type" : "fintech",
+	"category" : "apis",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech/fintech-packages-apis-apisproviders",
+	"class" : "Apps\\Fintech\\Packages\\Apis\\Providers\\Providers",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.9",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		},
+		"middlewares" : [],
+		"externals" : 
+		{
+			"composer" : 
+			{
+				"require" : []
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	},
+	"settings" : []
+}
